@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    background-color: burlywood;
+
+}
+
+main {
+    margin: 120px 80px 80px 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    text-align: right;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+image {
+    margin-top: 80px;
+    display: block;
+    width: 300px;
+    height: 480px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-shadow: 1px;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto 100px auto;
+}
+
+form fieldset {
+    border: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 14px ;
+}
+
+form input {
+    padding: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+}
